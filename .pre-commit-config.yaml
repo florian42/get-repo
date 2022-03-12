@@ -28,3 +28,4 @@ repos:
       - id: mypy
         exclude: ^tests/
         args: [--strict]
+        additional_dependencies: [typer==0.4.0]
