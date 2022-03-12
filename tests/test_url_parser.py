@@ -1,7 +1,3 @@
-# https://github.com/florian42/url-shortener.git
-# https://Florian42@bitbucket.org/fm_streemy/streemy-event-engine.git
-# git@bitbucket.org:fm_streemy/streemy-event-engine.git
-# git@github.com:florian42/url-shortener.git
 from parser import parse
 
 import pytest
@@ -12,16 +8,16 @@ class TestUrlParser:
         'test_input,expected',
         [
             (
-                'https://github.com/florian42/url-shortener.git',
-                'github.com/florian42/url-shortener',
+                'https://github.com/florian42/get-repo.git',
+                'github.com/florian42/get-repo',
             ),
             (
-                'https://github.com/florian42/url-shortener',
-                'github.com/florian42/url-shortener',
+                'https://github.com/florian42/get-repo',
+                'github.com/florian42/get-repo',
             ),
             (
-                'https://Florian42@bitbucket.org/fm_streemy/streemy.git',
-                'bitbucket.org/fm_streemy/streemy',
+                'https://Florian42@bitbucket.org/something/streamit.git',
+                'bitbucket.org/something/streamit',
             ),
         ],
     )
@@ -33,12 +29,12 @@ class TestUrlParser:
         'test_input,expected',
         [
             (
-                'git@github.com:florian42/url-shortener.git',
-                'github.com/florian42/url-shortener',
+                'git@github.com:florian42/get-repo.git',
+                'github.com/florian42/get-repo',
             ),
             (
-                'git@bitbucket.org:fm_streemy/streemy.git',
-                'bitbucket.org/fm_streemy/streemy',
+                'git@bitbucket.org:something/streamit.git',
+                'bitbucket.org/something/streamit',
             ),
         ],
     )
