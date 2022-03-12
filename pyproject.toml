@@ -1,8 +1,11 @@
 [tool.poetry]
 name = "get-repo"
 version = "0.1.1"
-description = ""
-authors = ["Florian <f.aumeier@me.com>"]
+repository = "https://github.com/florian42/get-repo"
+description = "Small cli utility for cloning git repos in an orderly manner"
+readme = "README.md"
+authors = ["Florian <hey@flo.fish>"]
+license = 'MIT'
 
 [tool.poetry.scripts]
 get-repo = "get_repo.cli:main"
@@ -23,6 +26,7 @@ flake8-builtins = "^1.5.3"
 isort = "^5.10.1"
 mypy = "^0.940"
 bumpversion = "^0.6.0"
+twine = "^3.8.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
