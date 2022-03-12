@@ -22,6 +22,7 @@ flake8-variables-names = "^0.0.5"
 flake8-builtins = "^1.5.3"
 isort = "^5.10.1"
 mypy = "^0.940"
+bumpversion = "^0.6.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
