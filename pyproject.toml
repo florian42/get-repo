@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "git-get"
+version = "0.1.0"
+description = ""
+authors = ["Florian <f.aumeier@me.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pre-commit = "^2.17.0"
+flake8-bugbear = "^22.1.11"
+flake8-eradicate = "^1.2.0"
+flake8-functions-names = "^0.3.0"
+flake8-variables-names = "^0.0.5"
+flake8-builtins = "^1.5.3"
+isort = "^5.10.1"
+mypy = "^0.940"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
