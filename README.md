@@ -1,7 +1,7 @@
 # get-repo
 > A small cli utility for cloning git repositories in an orderly manner.
 
-`get-repo` clones git repositories into `$HOME/source/{host}/{owner}/{repository-name}``
+`get-repo` clones git repositories into `$HOME/source/{host}/{owner}/{repository-name}`
 
 ## Installation
 
