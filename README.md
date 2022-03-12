@@ -1,20 +1,20 @@
-# git-get
+# get-repo
 > A small cli utility for cloning git repositories in an orderly manner.
 
-`git-get` clones git repositories into `$HOME/source/{host}/{owner}/{repository-name}``
+`get-repo` clones git repositories into `$HOME/source/{host}/{owner}/{repository-name}``
 
 ## Installation
 
 OS X & Linux & Windows:
 
 ```sh
-pip install git-get
+pip install get-repo
 ```
 
 ## Usage example
 
 ```sh
-git-get https://github.com/florian42/git-get.git
+git-get https://github.com/florian42/get-repo.git
 ```
 
 ## Development setup
@@ -39,11 +39,11 @@ Florian Aumeier – hey@flo.fish
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[https://github.com/florian42/git-get](https://github.com/florian42)
+[https://github.com/florian42/get-repo](https://github.com/florian42)
 
 ## Contributing
 
-1. Fork it (<https://github.com/florian42/git-get/fork>)
+1. Fork it (<https://github.com/florian42/get-repo/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)

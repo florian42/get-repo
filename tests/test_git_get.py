@@ -1,4 +1,4 @@
-from git_get import __version__
+from get_repo import __version__
 
 
 def test_version():

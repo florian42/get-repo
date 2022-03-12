@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "git-get"
+name = "get-repo"
 version = "0.1.0"
 description = ""
 authors = ["Florian <f.aumeier@me.com>"]
 
 [tool.poetry.scripts]
-git-get = "git_get.cli:main"
+get-repo = "get_repo.cli:main"
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -23,6 +23,7 @@ flake8-builtins = "^1.5.3"
 isort = "^5.10.1"
 mypy = "^0.940"
 bumpversion = "^0.6.0"
+twine = "^3.8.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

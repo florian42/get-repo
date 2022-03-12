@@ -8,7 +8,7 @@ from .parser import InvalidGitUrl, parse
 home = str(Path.home())
 
 app = typer.Typer(
-    name='git-get',
+    name='get-repo',
     add_completion=False,
     help='Helps you clone git repos in an organized way.',
 )

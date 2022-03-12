@@ -9,14 +9,14 @@ HERE = pathlib.Path(__file__).parent
 README = (HERE / 'README.md').read_text()
 
 setup(
-    name='git-get',
+    name='get-repo',
     version='0.1.0',
-    description='Read the latest Real Python tutorials',
+    description='Small cli utility for cloning git repos in an orderly manner',
     long_description=README,
     long_description_content_type='text/markdown',
-    url='https://github.com/realpython/reader',
-    author='Real Python',
-    author_email='info@realpython.com',
+    url='https://github.com/florian42/get-repo',
+    author='Florian Aumeier',
+    author_email='hey@flo.fish',
     license='MIT',
     classifiers=[
         'License :: OSI Approved :: MIT License',
@@ -28,7 +28,7 @@ setup(
     install_requires=['typer', 'git-url-parse'],
     entry_points={
         'console_scripts': [
-            'git-get = git_get.cli:main',
+            'get-repo = get_repo.cli:main',
         ],
     },
 )
