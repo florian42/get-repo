@@ -14,8 +14,11 @@ pip install get-repo
 ## Usage example
 
 ```sh
-git-get https://github.com/florian42/get-repo.git
+get-repo https://github.com/florian42/get-repo.git
+get-repo git@github.com:florian42/get-repo.git
 ```
+
+Clones the git repository get-repo into `~/source/github.com/florian42/get-repo`
 
 ## Development setup
 
