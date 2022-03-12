@@ -25,7 +25,7 @@ setup(
     ],
     packages=find_packages(exclude=('tests',)),
     include_package_data=True,
-    install_requires=['typer', 'git-url-parse'],
+    install_requires=['typer==0.4.0', 'git-url-parse==1.2.2'],
     entry_points={
         'console_scripts': [
             'get-repo = get_repo.cli:main',

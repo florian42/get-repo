@@ -29,7 +29,8 @@ poetry run pre-commit run --all-files
 ```
 
 ## Release History
-
+* 0.1.1
+  * Fix setup bug
 * 0.1.0
     * Initial Release
 
