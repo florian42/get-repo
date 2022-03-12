@@ -29,7 +29,7 @@ poetry run pre-commit run --all-files
 ```
 
 ## Release History
-* 0.1.1
+* 0.1.2
     * Initial Release
 
 ## Meta

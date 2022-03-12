@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "get-repo"
-version = "0.1.1"
+version = "0.1.2"
 repository = "https://github.com/florian42/get-repo"
 description = "Small cli utility for cloning git repos in an orderly manner"
 readme = "README.md"
