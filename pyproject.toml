@@ -6,6 +6,9 @@ description = "Small cli utility for cloning git repos in an orderly manner"
 readme = "README.md"
 authors = ["Florian <hey@flo.fish>"]
 license = 'MIT'
+include = [
+    "LICENSE",
+]
 
 [tool.poetry.scripts]
 get-repo = "get_repo.cli:main"
