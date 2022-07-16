@@ -27,5 +27,5 @@ repos:
     hooks:
       - id: mypy
         exclude: ^tests/
-        args: [--strict]
+        args: [--strict, --ignore-missing-imports]
         additional_dependencies: [typer==0.4.0, types-setuptools]
