@@ -28,8 +28,8 @@ flake8-variables-names = "^0.0.5"
 flake8-builtins = "^1.5.3"
 isort = "^5.10.1"
 mypy = "^0.940"
-bumpversion = "^0.6.0"
 twine = "^3.8.0"
+bumpver = "^2022.1118"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
@@ -50,3 +50,16 @@ exclude = '''
   | dist
 )/
 '''
+
+[tool.bumpver]
+current_version = "0.1.2"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message = "bump version {old_version} -> {new_version}"
+commit = true
+tag = true
+push = false
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = ['current_version = "{version}"', 'version = "{version}"']
+"get_repo/__init__.py" = ["{version}"]
+"tests/test_get_repo.py" = ["{version}"]
