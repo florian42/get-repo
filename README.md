@@ -32,6 +32,9 @@ poetry run pre-commit run --all-files
 ```
 
 ## Release History
+* 0.1.3
+    * Use gitpython instead of subprocess
+    * Dependency Updates
 * 0.1.2
     * Initial Release
 
