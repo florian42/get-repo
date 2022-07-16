@@ -21,3 +21,6 @@ complexity-baseline:
 	poetry run radon mi get_repo
 	$(info Cyclomatic complexity index)
 	poetry run xenon --max-absolute C --max-modules A --max-average A get_repo
+
+patch:
+	poetry run bumpver update --patch
