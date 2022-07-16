@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "get-repo"
-version = "0.1.2"
+version = "0.1.3"
 repository = "https://github.com/florian42/get-repo"
 description = "Small cli utility for cloning git repos in an orderly manner"
 readme = "README.md"
@@ -58,7 +58,7 @@ exclude = '''
 '''
 
 [tool.bumpver]
-current_version = "0.1.2"
+current_version = "0.1.3"
 version_pattern = "MAJOR.MINOR.PATCH"
 commit_message = "bump version {old_version} -> {new_version}"
 commit = true
