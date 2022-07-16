@@ -1,6 +1,6 @@
-from parser import parse
-
 import pytest
+
+from get_repo import parse
 
 
 class TestUrlParser:

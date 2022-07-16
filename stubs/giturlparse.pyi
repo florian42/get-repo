@@ -1,5 +1,3 @@
-# Function bodies cannot be completely removed. By convention,
-# we replace them with `...` instead of the `pass` statement.
 from typing import Optional
 
 class Url:
