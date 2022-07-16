@@ -10,6 +10,9 @@ format:
 lint: format
 	poetry run flake8 get_repo/* tests/*
 
+test:
+	poetry run pytest
+
 security-baseline:
 		poetry run bandit -r get_repo
 
